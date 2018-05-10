@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cristhiancruz.pedirunride.Activitys.RegistrarLoginActivity"
+    android:background="#ffd54f"
+    >
+
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:text="@string/btn_registrar"
+        android:textColor="@android:color/white"
+        android:background="@drawable/botones_redondos"
+
+        />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btn_registrar"
+        android:layout_alignStart="@+id/btn_registrar"
+        android:layout_below="@+id/btn_registrar"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/botones_redondos2"
+        android:text="@string/btn_ingresar"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:src="@drawable/ride" />
+</RelativeLayout>
+
+

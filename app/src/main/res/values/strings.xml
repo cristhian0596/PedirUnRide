@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">UnRide</string>
+    <string name="registrarse_login"> Registrarse</string>
+    <string name="no_tienes_una_cuenta_login">No tienes una cuenta?</string>
+    <string name="btn_ingresar_login">Ingresar</string>
+    <string name="contraseña_login">Contraseña</string>
+    <string name="usuario_login">Usuario</string>
+    <string name="tienes_una_cuenta_registro">Tienes una cuenta?</string>
+    <string name="ingresar_registro">Ingresar</string>
+    <string name="btn_registrar_registro">Registrar</string>
+    <string name="repetir_contraseña">Repetir contraseña</string>
+    <string name="contraseña_registro">Contraseña</string>
+    <string name="direccion_correo_registro">Correo Electrónico</string>
+    <string name="usuario_registro">Nombre Completo</string>
+    <string name="btn_registrar_rl">Registrar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="telefono_registro">Teléfono</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="lugar_registro">Lugar</string>
+    <string name="msj_Está_seguro">¿Está seguro?</string>
+    <string name="msj_creando_cuenta">Creando cuenta</string>
+    <string name="error_requerido">Requerido</string>
+    <string name="progresDialog_cargando">Cargando...</string>
+    <string name="toast_autentificacion_correcta">Auntentificado correctamente</string>
+    <string name="msj_aceptar">Aceptar</string>
+    <string name="msj_cancelar">Cancelar</string>
+    <string name="msj_autentificacion_fallida">Autentificacion fallida</string>
+    <string name="msj_usuario_creado">Creado exitosámente</string>
+    <string name="error_valor_mímino_telefono">Número no válido</string>
+    <string name="error_formato_correo_incorrecto">Formato incorrecto</string>
+    <string name="error_valor_mímino">Mínimo 6 caracteres</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_login">Iniciar Sesión</string>
+    <string name="title_pedir">Pedir Ride</string>
+    <string name="title_ofrecer">Ofrecer Ride</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_principal">Ride</string>
+    <string name="toast_editado_exito">editado exitósamente</string>
+    <string name="title_editar">Editar</string>
+    <string name="Cerrrar_Aplicacion">¿Está seguro que desea cerrar sesión?</string>
+    <string name="fecha_pedir">Fecha</string>
+    <string name="lugar_origen_pedir">Lugar de Origen</string>
+    <string name="lugar_destino_pedir">Lugar de Destino</string>
+    <string name="cantidad_de_personas_pedir">Cantidad de Personas</string>
+    <string name="ida">Ida</string>
+    <string name="ida_y_vuelta">Ida y Vuelta</string>
+    <string name="comunidad_pedir">Comunidad</string>
+    <string name="btn_pedir">Pedir Ride</string>
+    <string name="hora_pedir">Hora</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+    <string name="ofrecer_ride">Ofrecer Ride</string>
+
+
+</resources>

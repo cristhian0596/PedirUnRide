@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.cristhiancruz.pedirunride.Fragments.OfrecerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="fragment ofrecer" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_floating_ofrecer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="490dp"
+        app:srcCompat="@drawable/plus" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

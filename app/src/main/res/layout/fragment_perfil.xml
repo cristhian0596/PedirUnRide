@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fab_margin"
+    tools:context="com.example.cristhiancruz.pedirunride.Fragments.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagen_perfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|top"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/perfil"
+            app:civ_border_width="1dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_floating_perfil"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/camara" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginTop="180dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_nombre_perfil"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:drawableLeft="@drawable/user"
+                    android:textColor="@android:color/black" />
+
+                <ImageButton
+                    android:id="@+id/btn_nombre_perfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/edit" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_ubicacion_perfil"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:drawableLeft="@drawable/lugar"
+                    android:textColor="@android:color/black" />
+
+                <ImageButton
+                    android:id="@+id/btn_ubicacion_perfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/edit" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_telefono_perfil"
+                    android:layout_width="300dp"
+                    android:layout_height="25dp"
+                    android:drawableLeft="@drawable/telefono"
+                    android:textColor="@android:color/black" />
+
+                <ImageButton
+                    android:id="@+id/btn_telefono_perfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/white"
+                    android:src="@drawable/edit" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/black"
+
+                />
+
+            <!--    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+              <TextView
+                  android:id="@+id/txt_contraseña_perfil"
+                  android:layout_width="300dp"
+                  android:layout_height="25dp"
+                  android:drawableLeft="@drawable/contrasena"
+                  android:textColor="@android:color/black" />
+
+              <ImageButton
+                  android:id="@+id/btn_contraseña_perfil"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:background="@android:color/white"
+                  android:src="@drawable/edit" />
+          </LinearLayout>
+
+          <View
+              android:layout_width="300dp"
+              android:layout_height="1dp"
+              android:layout_marginBottom="15dp"
+              android:background="@android:color/black"
+
+              />    -->
+
+
+
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

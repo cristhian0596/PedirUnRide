@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contenedor"
+    tools:context="com.example.cristhiancruz.pedirunride.Activitys.MainActivity">
+
+    <include layout="@layout/toolbar" />
+    <include layout="@layout/bottombar"/>
+
+    <FrameLayout
+        android:layout_marginTop="56dp"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="46dp"
+        />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

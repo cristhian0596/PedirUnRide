@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_login">Sign In</string>
+    <string name="title_registro">Sign Up</string>
+    <string name="Cerrrar_Aplicacion">¿Está seguro que desea cerrar sesión?</string>
+</resources>

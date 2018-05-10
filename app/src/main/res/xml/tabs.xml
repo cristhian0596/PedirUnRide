@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_pedir"
+        icon="@drawable/pedir" />
+       <!-- title="@string/tab_all" /> -->
+    <tab
+        id="@+id/tab_ofrecer"
+        icon="@drawable/ofrecer" />
+    <tab
+        id="@+id/tab_perfil"
+        icon="@drawable/perfil"
+        />
+</tabs>
